@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
+
+@font-face {
+    font-family: Proxima_Nova;
+    src: url(fonts/ProximaNova/ProximaNova.ttf);
+}
+
+
+.logohead{
+    position: relative;
+    left: 100px;
+    width: auto;
+    height: 150px;
+    
+}
+.lineahead{
+    height: 7px;
+    background-color: black !important;
+    
+}
+.linea2head{
+    
+    height: 5px;
+    background-color: black !important;
+    border-radius: 100px;
+}
+.encabezado{
+    display: flex;
+    
+}
+.title{
+    text-align: center;
+    font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
+    font-variant: 'wght',600;
+    position: relative;
+    left: 150px;
+    
+}
+.bodycontent{
+    display: flex;
+    flex-direction: row;
+}
+.bodytext{
+    position: relative;
+    left: 250px;
+    top: 80px;
+    order: 1;
+}
+.bodytitle{
+    font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+.bodysecond{
+    font-family: 'Proxima_Nova', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 23px;
+}
+.bodyimage{
+    position: relative;
+    top: 50px;
+    left: 400px;
+    order: 2;
+}
+.logobody{
+    height: 450px;
+}
+.whtconect{
+    font-size: 25px !important;
+    position: relative;
+    top: 40px;
+    left: 150px;
+    height: 90px;
+    width: 220px;
+}
+.lineafoot{
+    position: relative;
+    top: 80px;
+    height: 10px;
+    background-color: black;
+}
+.foot{
+    position: relative;
+    height: 130px;
+    top: 70px;
+    background-color: #FFBF23;
+    
+}
+@media screen and (max-width:800px) {
+    .logohead{
+        left: 20px;
+        height: 120px !important;
+    }
+    .title{
+        left: 50px;
+    }
+    .bodytext{
+        top: 45px;
+        left: 7px;
+        order: 2;
+    }
+    .bodyimage{
+        top: 20px;
+        left: 13px;
+    
+        order: 1;
+    }
+    .logobody{
+
+        height: 240px;
+    }
+    .bodytitle{
+        font-size: 35px;
+    }
+    .bodysecond{
+        font-size: 19px;
+    }
+    .bodycontent{
+        flex-direction: column;
+        
+    }
+    .whtconect{
+        height: 40px;
+        left: 60px;
+        top: 10px;
+    }
+    .foot{
+        height: 70px;
+    }
+    
+}
